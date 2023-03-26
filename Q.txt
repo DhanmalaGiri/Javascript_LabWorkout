@@ -1,0 +1,6 @@
+lab 2:
+
+Q1.  Write a javascript program to show the use of  document.write() for displaying data.
+Q2.  Write a javascript program to show how document.write() will delete all existing html elements.
+Q3.  How can you use window.alert() for displaying data.
+Q4.  Wrrite a program showing the use of console.log() and write simple steps to view the output of console.log().
