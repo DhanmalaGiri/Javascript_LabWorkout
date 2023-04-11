@@ -4,3 +4,22 @@ Q1.  Write a javascript program to show the use of  document.write() for display
 Q2.  Write a javascript program to show how document.write() will delete all existing html elements.
 Q3.  How can you use window.alert() for displaying data.
 Q4.  Wrrite a program showing the use of console.log() and write simple steps to view the output of console.log().
+
+lab 3: 
+
+Q1.	Write a js program to find day of a week using date() function and switch-case as shown :
+	
+	S = Sunday
+	M = Monday
+	T = Tuesday
+	W = Wednesday
+	H = Thursday
+	F = Friday
+	A = Satuarday
+	Q2. Print the given series using while, for and do while loop:
+		
+		a. 2	4	6	8 upto 20th terms.
+		b. 5	10	15	20 upto 50th terms.
+		c. 1	5	9	13 upto 25th terms.
+		d. 50	44	38	32 upto 10th terms.
+		e. 1	8	27	64 upto 20th terms.

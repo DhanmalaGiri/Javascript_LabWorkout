@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>second question using while loop</title>
+</head>
+<body>
+	<!-- Print the given series using while, for and do while loop:
+	
+	a. 2	4	6	8 upto 20th terms.
+	b. 5	10	15	20 upto 50th terms.
+	c. 1	5	9	13 upto 25th terms.
+	d. 50	44	38	32 upto 10th terms.
+	e. 1	8	27	64 upto 20th terms. -->
+
+	<p id="table2">a. </p>
+	<p id="mul">b. </p>
+	<p id="sum">c. </p>
+	<p id="sub">d. </p>
+	<p id="cube">e. </p>
+
+	<script>
+		let i = 1;
+		while(i<=20){
+			document.getElementById('table2').innerHTML += ("a. " + 2*i + " ");
+			i++;
+		}
+		i = 1;
+		while(i<=50){
+			document.getElementById('mul').innerHTML += (5 * i + " ");
+			i++;
+		}
+		i = 1;
+		j=1;
+		while(j<=25){
+			document.getElementById('sum').innerHTML += (i + " ");
+			i+=4;
+			j++;
+		}
+		i = 50;
+		j=1;
+		while(j<=10){
+			document.getElementById('sub').innerHTML += (i + " ");
+			i-=6;
+			j++;
+		}
+		i=1;
+		while(i<=20){
+			document.getElementById('cube').innerHTML += (i*i*i + " ");
+			i++;
+		}
+	</script>
+</body>
+</html>

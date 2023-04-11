@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>first question</title>
+	</head>
+	<body>
+		<!-- Write a js program to find day of a week using switch-case as shown :
+		
+		S = Sunday
+		M = Monday
+		T = Tuesday
+		W = Wednesday
+		H = Thursday
+		F = Friday
+		A = Saturday -->
+		<p id="day"></p>
+		<button type="button" onclick="findDAy()">Day</button>
+		<script>
+			function findDay(){
+				let day = "S";
+				switch(day){
+					case 'S':
+						document.getElementById('day').innerHTML = "Sunday";
+						break;
+					case 'M':
+						document.getElementById('day').innerHTML = "Monday";
+						break;
+					case 'T':
+						document.getElementById('day').innerHTML = "Tuesday";
+						break;
+					case 'W':
+						document.getElementById('day').innerHTML = "Wednesday";
+						break;
+					case 'H':
+						document.getElementById('day').innerHTML = "Thursday";
+						break;
+					case 'F':
+						document.getElementById('day').innerHTML = "Friday";
+						break;
+					case 'A':
+						document.getElementById('day').innerHTML = "Saturday";
+						break;
+					default:
+						document.getElementById('day').innerHTML = "Wrong input";
+
+				}
+			}
+			
+		</script>
+	</body>
+</html>
